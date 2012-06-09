@@ -2,7 +2,7 @@ import AssemblyKeys._
 
 seq(assemblySettings: _*)
 
-name := "iOS Provisioning API"
+name := "iOSProvisioningCLI"
 
 version := "0.1"
 
