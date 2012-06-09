@@ -14,6 +14,10 @@ trait SiteDriver {
 class Runner {
   self: SiteDriver =>
 
+  def output(string: String) {
+    println(string)
+  }
+
   def << (commandString: String) {
     self << commandString.split(" ")
   }
@@ -36,7 +40,7 @@ class Runner {
         addNewDevice(deviceName, deviceUuid)
       }
       case _ => {
-
+        output("Usage can be found at https://github.com/cowboygneox/iOSProvisioningCLI")
       }
     }
   }
