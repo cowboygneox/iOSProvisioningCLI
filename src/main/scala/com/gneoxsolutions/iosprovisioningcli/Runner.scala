@@ -8,6 +8,7 @@ trait SiteDriver {
   def listDevelopmentProfiles()
   def listDistributionProfiles()
   def addNewDevice(deviceName: String, deviceUuid: String)
+  def removeDevice(deviceUuid: String)
 }
 
 class Runner {
@@ -24,6 +25,9 @@ class Runner {
       }
       case Array("list", "distribution", "profiles") => {
         listDistributionProfiles()
+      }
+      case Array("remove", "device", deviceUuid: String) => {
+        removeDevice(deviceUuid)
       }
       case Array("add", "device", _*) => {
         val remainingArgs = args.slice(2, args.length)
