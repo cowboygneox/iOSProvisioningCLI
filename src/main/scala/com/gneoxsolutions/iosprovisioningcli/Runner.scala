@@ -1,7 +1,23 @@
 package com.gneoxsolutions.iosprovisioningcli
 
 object Runner extends App {
+  new Runner() with SiteDriver {
+    def listDevelopmentProfiles() {
+      println("Placeholder: list development profiles")
+    }
 
+    def listDistributionProfiles() {
+      println("Placeholder: list distribution profiles")
+    }
+
+    def addNewDevice(deviceName: String, deviceUuid: String) {
+      println("Placeholder: add device")
+    }
+
+    def removeDevice(deviceUuid: String) {
+      println("Placeholder: remove device")
+    }
+  } << args
 }
 
 trait SiteDriver {
