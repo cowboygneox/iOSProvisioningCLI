@@ -26,4 +26,5 @@ Specific details are coming, but it will be a bundled Java .jar with a simple sc
 ## Usage
 #### Device Management
 ###### Adding a device
+`./provisioning_cli add device "Device Name" "111111111122222222233333333334444444444"
 ###### Removing a device
