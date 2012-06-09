@@ -5,3 +5,25 @@ Developing and distributing any number of iPhone applications can be extremely t
 
 ## Purpose
 Perform actions on Apple's iOS Provisioning Portal from the commandline, thus making management of iOS applications scriptable.
+
+## Available Functions
+* It's coming, chill out! 
+
+## Functionality to come
+* Add/remove devices
+* List registered devices
+* Add App ID's
+* Configure Apps for Push Notifications and iCloud
+* Create/Edit/Remove Development Provisioning Profiles
+* Create/Edit/Remove Distribution Provisioning Profiles
+* Download provisioning profiles
+* Create/Edit/Remove Development Certificates
+* Create/Edit/Remove Distribution Certificates
+
+## Installation
+Specific details are coming, but it will be a bundled Java .jar with a simple script for running.
+
+## Usage
+#### Device Management
+###### Adding a device
+###### Removing a device
